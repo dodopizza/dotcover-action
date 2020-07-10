@@ -12,7 +12,9 @@ Path to a configfile to pass to DotCover.
 
 ## Example usage
 
+```yaml
 uses: dodopizza/dotcover-action@v1
 with:
   dotCoverCommand: cover
   configFile: dotcover.xml
+```
