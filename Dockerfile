@@ -9,7 +9,7 @@ RUN apt-get install apt-transport-https \
 
 RUN cd /bin && \
     curl -o /JetBrains.dotCover.CommandLineTools.linux-x64.2020.1.4.tar.gz \
-    https://download.jetbrains.com/resharper/ReSharperUltimate.2020.1.4/JetBrains.dotCover.CommandLineTools.linux-x64.2020.1.4.tar.gz && \
+    https://download-cf.jetbrains.com/resharper/ReSharperUltimate.2020.1.4/JetBrains.dotCover.CommandLineTools.linux-x64.2020.1.4.tar.gz && \
     tar xvf /JetBrains.dotCover.CommandLineTools.linux-x64.2020.1.4.tar.gz && \
     cd /
 
