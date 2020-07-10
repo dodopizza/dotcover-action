@@ -1,0 +1,13 @@
+name: 'DotCover Github Actions wrapper'
+description: 'Run DotCover in Github Actions. Includes .NET Core 3.1 SDK'
+inputs:
+  dotCoverCommand:
+    description: "Command to pass to DotCover"
+  configFile:
+    description: "Path to a config file"
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+  - ${{ inputs.dotCoverCommand }}
+  - ${{ inputs.configFile }}
