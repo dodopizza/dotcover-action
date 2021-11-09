@@ -1,5 +1,5 @@
 name: 'DotCover Github Actions wrapper'
-description: 'Run DotCover in Github Actions. Includes .NET 5.0 SDK'
+description: 'Run DotCover in Github Actions. Includes .NET 6.0 SDK'
 inputs:
   dotCoverCommand:
     description: "Command to pass to DotCover"

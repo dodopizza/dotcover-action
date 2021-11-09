@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 
 RUN cd /bin && \
     curl -o /JetBrains.dotCover.CommandLineTools.linux-x64.2020.1.4.tar.gz \
